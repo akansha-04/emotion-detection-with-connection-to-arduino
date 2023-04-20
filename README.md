@@ -4,6 +4,11 @@ The objective of this project is to create a CNN-based emotion detection model t
 
 To structure the project, it can be divided into three phases: creating the web application, configuring the hardware, and executing the integration between the web application and the hardware.
 
+## Dataset Used
+The [FER-2013](https://www.kaggle.com/datasets/msambare/fer2013) dataset was used. The data consists of 48x48 pixel grayscale images of faces. The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
+
+Each face is categorised into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral).
+
 ## Web Application Interface
 
 - The web application aims to detect the user's emotion from camera input and use it to activate a smart scent diffuser.
